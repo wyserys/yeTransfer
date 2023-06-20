@@ -1,0 +1,33 @@
+/* Reset */
+
+@import url("reset.css");
+
+/* Fonts */
+
+@import url("fonts.css");
+
+/* Variables */
+
+@import url("variables.css");
+
+/* Common */
+
+@import url("common.css");
+
+/* Button */
+
+@import url("button.css");
+
+/* Blocks */
+
+@import url("blocks/page.css");
+@import url("blocks/container.css");
+@import url("blocks/header.css");
+@import url("blocks/menu.css");
+@import url("blocks/intro.css");
+@import url("blocks/prices.css");
+@import url("blocks/about.css");
+@import url("blocks/advantages.css");
+@import url("blocks/faq.css");
+@import url("blocks/aside.css");
+@import url("blocks/footer.css");

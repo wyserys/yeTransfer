@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html class="page" lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="styles/index.css">
+	<title>Document</title>
+</head>
+<body class="page__body">
+	<div class="page__wrapper">
+		<header class="header">
+			<div class="header__container container">
+				<a href="" class="header__logo logo">
+					<img class="logo__icon" src="images/logo.svg" alt="Логотип єТрансфер" width="32" height="32">
+				</a>
+				<nav class="header__menu menu">
+					<div class="menu__body">
+						<ul class="menu__list">
+							<li class="menu__item">
+								<a class="menu__link" href="#prices">Стоимость</a>
+							</li>
+							<li class="menu__item">
+								<a class="menu__link" href="#about">О компании</a>
+							</li>
+							<li class="menu__item">
+								<a class="menu__link" href="#advantages">Преимущества</a>
+							</li>
+							<li class="menu__item">
+								<a class="menu__link" href="#faq">Вопросы</a>
+							</li>
+							<li class="menu__item">
+								<a class="menu__link" href="#contacts">Контакты</a>
+							</li>
+						</ul>
+					</div class="menu__body">
+					<button class="menu__button">
+						<span class="menu__icon"></span>
+						<span class="menu__icon"></span>
+					</button>
+				</nav>
+				<div class="header__links social">
+					<ul class="social__list">
+						<li class="social__item">
+							<a href="" class="social__link">
+								<img class="social__icon" src="images/telegram.svg" alt="Иконка Telegram" width="32" height="32">
+							</a>
+							<a href="" class="social__link">
+								<img class="social__icon" src="images/whatsapp.svg" alt="Иконка WhatsApp" width="32" height="32">
+							</a>
+							<a href="" class="social__link">
+								<img class="social__icon" src="images/viber.svg" alt="Иконка Viber" width="32" height="32">
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</header>
+
+		<main class="main">
+			<section class="intro">
+				<div class="intro__container container">
+					<h1 class="intro__title">Трансфер из&nbsp;Одессы в&nbsp;аэропорты Европы</h1>
+					<p class="intro__description">Трансфер в&nbsp;аэропорт, на&nbsp;автовокзал и&nbsp;ж/д вокзал или город, а&nbsp;также в&nbsp;обратном направлении.</p>
+					<button class="intro__button button" onclick="window.location.href = '#cta';">Заказать трансфер</button>
+				</div>
+			</section>
+
+			<section class="prices" id="prices">
+				<div class="prices__container container">
+					<h4 class="prices__caption caption">Стоимость</h4>
+					<div class="prices__content-wrapper">
+						<h3 class="prices__title">Узнать точную стоимость поездки за&nbsp;5&nbsp;минут</h3>
+						<form class="form" action="#" method="post">
+							<ul class="form__list">
+								<li class="form__item">
+									<input class="form__input" required type="text" name="from-where" placeholder="Откуда">
+								</li>
+								<li class="form__item">
+									<input class="form__input" required type="text" name="where" placeholder="Куда">
+								</li>
+								<li class="form__item">
+									<input class="form__input" required type="text" name="name" placeholder="Имя">
+								</li>
+								<li class="form__item">
+									<input class="form__input" required type="tel" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="Телефон">
+								</li>
+							</ul>
+							<div class="form__bottom-wrapper">
+								<p class="form__text">
+									Нажимая на кнопку &laquo;Узнать стоимость&raquo;, вы принимаете 
+									<a class="link" href="#">политику конфидециальности</a>.
+								</p>
+								<button class="form__button button button--black" type="submit">Узнать стоимость</button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</section>
+
+			<section class="about" id="about">
+				<div class="about__container container">
+					<h4 class="about__caption caption">О компании</h4>
+					<div class="about__content-wrapper">
+						<h3 class="about__title">Наша задача &mdash; во время довести клиента до пункта назначения с максимальным комфортом!</h3>
+						<p class="about__text">Мы осуществляем международные перевозки с Одессы в Европу и в обратном направлении на протяжении 5 лет. Выбирая нас, вы комфортно и безопасно доедите до пункта назначения!</p>
+						<ul class="about__achievements achievements">
+							<li class="achievements__item">
+								<span class="achievements__numeric">&gt;2000</span>
+								<p class="achievements__text">Довольных клиентов</p>
+							</li>
+							<li class="achievements__item">
+								<span class="achievements__numeric">&gt;65%</span>
+								<p class="achievements__text">Повторных обращений</p>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</section>
+
+			<section class="advantages" id="advantages">
+				<div class="advantages__container container">
+					<h4 class="advantages__caption caption">Преимущества</h4>
+					<div class="advantages__content-wrapper">
+						<ul class="advantages__list">
+							<li class="advantages__item">
+								<h5 class="advantages__title">Без предоплаты</h5>
+								<p class="advantages__text">Сначала&nbsp;&mdash; сервис, потом оплата. Работаем без предоплаты на&nbsp;любые расстояния. Принимаем к&nbsp;оплате наличные или перевод на&nbsp;карту.</p>
+							</li>
+							<li class="advantages__item">
+								<h5 class="advantages__title">Фиксированная цена</h5>
+								<p class="advantages__text">Стоимость поездки оговаривается заранее и&nbsp;может измениться только при изменении или отклонении от&nbsp;маршрута по&nbsp;согласованию.</p>
+							</li>
+							<li class="advantages__item">
+								<h5 class="advantages__title">Безопасность</h5>
+								<p class="advantages__text">Соблюдение безопасности и&nbsp;правил дор. движения. Вы&nbsp;всегда заранее знаете, кто будет вашим водителем, все перевозчики аккредитованы.</p>
+							</li>
+							<li class="advantages__item">
+								<h5 class="advantages__title">Комфорт</h5>
+								<p class="advantages__text">Cовременные авто в&nbsp;надлежащем техническом состоянии. Чистый и&nbsp;опрятный салон. Не&nbsp;будет никаких попутчиков и&nbsp;других пассажиров.</p>
+							</li>
+							<li class="advantages__item">
+								<h5 class="advantages__title">Ответственность</h5>
+								<p class="advantages__text">Все наши сотрудники ответственно относятся к&nbsp;исполнению взятых на&nbsp;себя обязательств. В&nbsp;случае невыполнения, мы&nbsp;не&nbsp;боимся взять её на&nbsp;себя.</p>
+							</li>
+							<li class="advantages__item">
+								<h5 class="advantages__title">Конфиденциальность</h5>
+								<p class="advantages__text">Персональные данные клиента и&nbsp;пассажира не&nbsp;распространяются! Все что водитель услышит во&nbsp;время поездки будет сохранено в&nbsp;тайне.</p>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</section>
+
+			<section class="faq" id="faq">
+				<div class="faq__container container">
+					<h4 class="faq__caption caption">Частые вопросы</h4>
+					<div class="faq__content-wrapper">
+						<h3 class="faq__title">Тут вы можете найти ответы на ваши вопросы</h3>
+						<div class="faq-drawer">
+							<input class="faq-drawer__trigger" id="faq-drawer" type="checkbox" />
+							<label class="faq-drawer__title" for="faq-drawer">Как заказать&nbsp;/ забронировать трансфер?</label>
+							<div class="faq-drawer__content-wrapper">
+								<div class="faq-drawer__content">
+									<p>
+										Выберите пункт отправления и&nbsp;прибытия. После отправки заявки наши менеджеры свяжутся с&nbsp;вами и&nbsp;уточнят все детали поездки. 
+									</p>
+								</div>
+							</div>
+						</div>
+						
+						<div class="faq-drawer">
+							<input class="faq-drawer__trigger" id="faq-drawer-2" type="checkbox" />
+							<label class="faq-drawer__title" for="faq-drawer-2">Кто встретит и&nbsp;как найти друг друга?</label>
+							<div class="faq-drawer__content-wrapper">
+								<div class="faq-drawer__content">
+									<p>
+										Выберите пункт отправления и&nbsp;прибытия. После отправки заявки наши менеджеры свяжутся с&nbsp;вами и&nbsp;уточнят все детали поездки.
+									</p>
+								</div>
+							</div>
+						</div>
+						
+						<div class="faq-drawer">
+							<input class="faq-drawer__trigger" id="faq-drawer-3" type="checkbox" />
+							<label class="faq-drawer__title" for="faq-drawer-3">Кто встретит и&nbsp;как найти друг друга?</label>
+							<div class="faq-drawer__content-wrapper">
+								<div class="faq-drawer__content">
+									<p>
+										Выберите пункт отправления и&nbsp;прибытия. После отправки заявки наши менеджеры свяжутся с&nbsp;вами и&nbsp;уточнят все детали поездки.
+									</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="faq-drawer">
+							<input class="faq-drawer__trigger" id="faq-drawer-4" type="checkbox" />
+							<label class="faq-drawer__title" for="faq-drawer-4">Что включает в&nbsp;себя стоимость?</label>
+							<div class="faq-drawer__content-wrapper">
+								<div class="faq-drawer__content">
+									<p>
+										Выберите пункт отправления и&nbsp;прибытия. После отправки заявки наши менеджеры свяжутся с&nbsp;вами и&nbsp;уточнят все детали поездки.
+									</p>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</section>
+		</main>
+
+		<aside class="aside">
+			<div class="aside__container container">
+				<section class="cta" id="cta">
+					<h4 class="cta__title">Первая поездка со&nbsp;скидкой&nbsp;15%</h4>
+					<form action="" class="cta-form">
+						<div class="cta-form__input-wrapper">
+							<input class="cta-form__input form__input" type="text" placeholder="Имя">
+							<input class="cta-form__input form__input" type="text" placeholder="Телефон">
+						</div>
+						<p class="cta-form__text">
+							Нажимая на кнопку &laquo;Оставить заявку&raquo;, вы принимаете <a class="link link--dark" href="#">политику конфидециальности</a>.
+						</p>
+						<button class="cta-form__button button" type="submit">Оставить заявку</button>
+					</form>
+				</section>
+	
+				<section class="contacts" id="contacts">
+					<h4 class="contacts__caption caption">Контакты</h4>
+					<div class="contacts__content__wrapper">
+						<div class="contacts__adress">
+							<h5 class="contacts__title">Адрес</h5>
+							<ul class="contacts__list">
+								<li class="contacts__item">
+									<a class="contacts__link">Старокиевское ш.19</a>
+								</li>
+								<li class="contacts__item">
+									<a class="contacts__link" href="mailto:info@yetransfer.com">info@yetransfer.com</a>
+								</li>
+								<li class="contacts__item">
+									<a class="contacts__link" href="tel:+380685557505">38 068 555 7505</a>
+								</li>
+							</ul>
+						</div>
+						<div class="contacts__social">
+							<h5 class="contacts__title">Связаться</h5>
+							<ul class="contacts__list">
+								<li class="contacts__item">
+									<a class="contacts__link" href="https://t.me/yetransfer">Telegram</a>
+								</li>
+								<li class="contacts__item">
+									<a class="contacts__link" href="https://wa.me/">WhatsApp</a>
+								</li>
+								<li class="contacts__item">
+									<a class="contacts__link" href="viber://chat?number=">Viber</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</section>
+			</div>
+		</aside>
+
+		<footer class="footer">
+			<div class="footer__container container">
+				<span class="footer__copyright">&copy;&nbsp;2023 єТрансфер</span>
+				<ul class="footer__list">
+					<li class="footer__item">
+						<a href="" class="footer__link">Сотрудничество</a>
+					</li>
+					<li class="footer__item">
+						<a href="" class="footer__link">Конфиденциальность</a>
+					</li>
+					<li class="footer__item footer__item--lang">
+						<img src="images/lang.svg" alt="" width="22"	height="22">
+						<a href="" class="footer__link footer__link--lang">Украинский</a>
+					</li>
+				</ul>
+			</div>
+		</footer>
+	</div>
+	<script src="scripts/script.js"></script>	
+</body>
+</html>
