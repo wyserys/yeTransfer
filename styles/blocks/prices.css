@@ -19,7 +19,7 @@
 	}
 }
 
-@media (width <= 768px) {
+@media (width <= 820px) {
 	.prices__container {
 		flex-wrap: wrap;
 	}
