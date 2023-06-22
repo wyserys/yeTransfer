@@ -16,8 +16,8 @@
 	}
 }
 
-@media (width <= 768px) {
-	.content-wrapper {
-		max-width: 100%;
+@media (width <= 820px) {
+	.faq__container {
+		flex-wrap: wrap;
 	}
 }
