@@ -3,7 +3,6 @@
 .intro {
 	height: 100vh;
 	max-height: 47.125rem;
-	min-height: 20rem;
 	background: url(../../images/covers/intro_bg.webp) left bottom / cover no-repeat;
 }
 
