@@ -1,7 +1,6 @@
 /* Intro */
 
 .intro {
-	height: 100vh;
 	max-height: 47.125rem;
 	background: url(../../images/covers/intro_bg.webp) left bottom / cover no-repeat;
 }
