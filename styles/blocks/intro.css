@@ -1,7 +1,7 @@
 /* Intro */
 
 .intro {
-	max-height: 47.125rem;
+	max-height: 53.938rem;
 	background: url("/images/covers/intro_bg.webp") left bottom / cover no-repeat;
 }
 
@@ -41,8 +41,8 @@
 /* Container */
 
 .intro__container {
-	padding-top: 19rem;
-	padding-bottom: 20rem;
+	padding-top: 20.25rem;
+	padding-bottom: 21.563rem;
 }
 
 @media (width <= 1024px) {
