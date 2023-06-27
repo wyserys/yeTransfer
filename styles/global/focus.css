@@ -1,7 +1,0 @@
-/* Focus */
-
-:focus-visible {
-	outline: 0.125rem solid var(--color-lilac);
-	outline-offset: 0.125rem;
-	border-radius: 0.125rem;
-}
