@@ -1,28 +1,28 @@
 /* Global */
 
-@import url("/global/reset.css");
-@import url("/global/fonts.css");
-@import url("/global/sizes.css");
-@import url("/global/colors.css");
-@import url("/global/focus.css");
+@import url("global/reset.css");
+@import url("global/fonts.css");
+@import url("global/sizes.css");
+@import url("global/colors.css");
+@import url("global/focus.css");
 
 /* Blocks */
 
-@import url("/blocks/page.css");
-@import url("/blocks/container.css");
-@import url("/blocks/content-wrapper.css");
-@import url("/blocks/notification.css");
-@import url("/blocks/close-icon.css");
-@import url("/blocks/achievements.css");
-@import url("/blocks/menu.css");
-@import url("/blocks/form.css");
-@import url("/blocks/caption.css");
-@import url("/blocks/socials.css");
-@import url("/blocks/header.css");
-@import url("/blocks/intro.css");
-@import url("/blocks/prices.css");
-@import url("/blocks/about.css");
-@import url("/blocks/advantages.css");
-@import url("/blocks/faq.css");
-@import url("/blocks/contacts.css");
-@import url("/blocks/footer.css");
+@import url("blocks/page.css");
+@import url("blocks/container.css");
+@import url("blocks/content-wrapper.css");
+@import url("blocks/notification.css");
+@import url("blocks/close-icon.css");
+@import url("blocks/achievements.css");
+@import url("blocks/menu.css");
+@import url("blocks/form.css");
+@import url("blocks/caption.css");
+@import url("blocks/socials.css");
+@import url("blocks/header.css");
+@import url("blocks/intro.css");
+@import url("blocks/prices.css");
+@import url("blocks/about.css");
+@import url("blocks/advantages.css");
+@import url("blocks/faq.css");
+@import url("blocks/contacts.css");
+@import url("blocks/footer.css");
