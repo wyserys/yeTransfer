@@ -1,0 +1,154 @@
+/* Intro */
+
+.intro {
+	max-height: 47.125rem;
+	background: url("/images/covers/intro_bg.webp") left bottom / cover no-repeat;
+}
+
+@media (width <= 1024px) {
+	.intro {
+		max-height: 39.75rem;
+	}
+}
+
+@media (width <= 768px) {
+	.intro {
+		max-height: 32.25rem;
+	}
+}
+
+@media (width <= 576px) {
+	.intro {
+		max-height: 31.813rem;
+	}
+}
+@media (width <= 480px) {
+	.intro {
+		max-height: 30.688rem;
+	}
+}
+@media (width <= 375px) {
+	.intro {
+		max-height: 29rem;
+	}
+}
+@media (width <= 320px) {
+	.intro {
+		max-height: 24rem;
+	}
+}
+
+/* Container */
+
+.intro__container {
+	padding-top: 19rem;
+	padding-bottom: 20rem;
+}
+
+@media (width <= 1024px) {
+	.intro__container {
+		padding-top: 14rem;
+		padding-bottom: 15rem;
+	}
+}
+
+@media (width <= 768px) {
+	.intro__container {
+		padding-top: 11.5rem;
+		padding-bottom: 10rem;
+	}
+}
+
+@media (width <= 480px) {
+	.intro__container {
+		padding-top: 11rem;
+		padding-bottom: 10rem;
+	}
+}
+
+@media (width <= 320px) {
+	.intro__container {
+		padding-top: 8.5rem;
+		padding-bottom: 7.5rem;
+	}
+}
+
+/* Title */
+
+.intro__title {
+	max-width: 48.75rem;
+	margin-bottom: 1.5rem;
+	font-weight: 700;
+	font-size: var(--font-size-h1);
+	line-height: 1.1;
+	color: var(--color-white);
+}
+
+@media (width <= 1024px) {
+	.intro__title {
+		max-width: 39.313rem;
+	}
+}
+
+@media (width <= 992px) {
+	.intro__title {
+		max-width: 38rem;
+	}
+}
+
+@media (width <= 768px) {
+	.intro__title {
+		max-width: 100%;
+	}
+}
+
+@media (width <= 640px) {
+	.intro__title {
+		font-size: 2.25rem;
+	}
+}
+
+@media (width <= 576px) {
+	.intro__title {
+		margin-bottom: 1rem;
+	}
+}
+
+@media (width <= 480px) {
+	.intro__title {
+		font-size: 2rem;
+	}
+}
+
+@media (width <= 420px) {
+	.intro__title {
+		font-size: var(--font-size-h1);
+	}
+}
+
+/* Text */
+
+.intro__text {
+	max-width: 29.875rem;
+	color: var(--color-white);
+}
+
+@media (width <= 1024px) {
+	.intro__text {
+		max-width: 25rem;
+	}
+}
+
+@media (width <= 576px) {
+	.intro__text {
+		max-width: 20rem;
+	}
+}
+
+@media (width <= 375px) {
+	.intro__text {
+		max-width: 100%;
+		font-size: 0.875rem;
+	}
+}
+@media (width <= 320px) {}
